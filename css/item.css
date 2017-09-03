@@ -1,0 +1,100 @@
+.content{
+	height: 240px;
+	background-color: ;
+	margin: 0px auto;
+	margin-top: 10px;
+	padding: 10px;
+	border: 1px solid gray;
+}
+.content1{
+	height: 240px;
+	background-color: ;
+	margin: 0px auto;
+	margin-top: 10px;
+	padding: 10px;
+	border: 1px solid gray;
+}
+.item{
+   margin-top: 3%;
+}
+.content a:hover{
+	text-decoration: none;
+}
+.content1 a:hover{
+	text-decoration: none;
+}
+.content1 h5{
+	color:#653613;
+	font-size: 17px;
+	font-family: Georgia;
+    text-align: center;
+}
+.content h5{
+	color:#653613;
+	font-size: 17px;
+	font-family: Georgia;
+    text-align: center;
+}
+.content h5:hover{
+   color:#ff6f00;
+}
+.content1 h5:hover{
+   color:#ff6f00;
+}
+@media(min-width: 768px){
+	#mechanic{
+		margin-left:30%;
+	}
+	#startup{
+		margin-left:30%;
+	}
+	#healthcare{
+		margin-left:30%;
+	}
+	#rents{
+		margin-left: 30%;
+	}
+	#jobs{
+		margin-left: 30%;
+	}
+	.content{
+		margin: 16px;
+	}
+	.content1{
+		margin: 16px;
+	}
+}
+@media(min-width: 992px){
+	#mechanic{
+		margin-left:0%;
+	}
+	#startup{
+		margin-left:0%;
+	}
+	#healthcare{
+		margin-left:0%;
+	}
+	#rents{
+		margin-left: 0%;
+	}
+	#jobs{
+		margin-left: 0%;
+	}
+	.content{
+		margin: 20px;
+	}
+	.content1{
+		margin: 20px;
+	}
+}
+@media(min-width: 1280px){
+	.content{
+		margin: 16px;
+		height: 210px;
+	}
+	.content1{
+		margin: 16px;
+		height: 210px;
+	}
+
+}
